@@ -1,0 +1,95 @@
+.domain {
+	max-width: 100%;
+	height: 384px;
+	background-image: url(../img/domain-img/bg-domain.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.domain-body {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 384px;
+}
+
+.domain-cont p {
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #ED3A4E;
+	margin: 0;
+}
+
+.domain-cont h2 {
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #FFFFFF;
+	margin: 16px 0 33px 0;
+}
+
+.domain-cont form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.domain-cont form input:nth-of-type(1) {
+	width: 262px;
+	height: 48px;
+	background: none;
+	border: none;
+	background: #FFFFFF;
+	border-radius: 6px;
+	padding: 0 0 0 16px;
+	font-size: 16px;
+	line-height: 32px;
+	color: rgba(51, 51, 51, 0.5);
+	margin-right: 9px;
+}
+
+.domain-cont form select {
+	height: 48px;
+	width: 121px;
+	background: none;
+	border: none;
+	background: #FFFFFF;
+	border-radius: 6px;
+	padding: 0 0 0 16px;
+	font-size: 16px;
+	line-height: 32px;
+	color: rgba(51, 51, 51, 0.5);
+	appearance: none;
+}
+
+.domain-cont form input:nth-of-type(2) {
+	background: none;
+	border: none;
+	background: #ED3A4E;
+	border-radius: 6px;
+	width: 106px;
+	height: 48px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 8px;
+}
+
+.domain-select img {
+	position: absolute;
+	top: 21px;
+	right: 16px;
+}
+
+.domain-select {
+	position: relative;
+}

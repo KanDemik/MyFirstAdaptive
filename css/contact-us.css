@@ -1,0 +1,73 @@
+.contact-us-body {
+    width: 842px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 144px;
+}
+
+.contact-us-cont {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-body p:nth-of-type(1) {
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ED3A4E;
+    margin: 0;
+}
+
+.contact-us-body p:nth-of-type(2) {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.contact-us-body h2 {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #333333;
+    margin: 18px 0 29px 0;
+}
+
+.contact-us-btn {
+    width: 170px;
+    height: 48px;
+    border: 1px solid rgba(29, 70, 246, 0.3);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-btn:first-child {
+    margin-right: 30px;
+}
+
+.contact-us-btn a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: inherit;
+    color: #1D46F6;
+}
+
+.contact-us-btn:hover {
+    background-color: #1D46F6;
+    color: #fff;
+}
+
+.contact-us-btn a:hover {
+    background-color: #1D46F6;
+    color: #fff;
+}

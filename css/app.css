@@ -1,0 +1,57 @@
+.app-title p:nth-of-type(1) {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ED3A4E;
+    margin: 0;
+}
+
+.app-title p:nth-of-type(2) {
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.app-title h2 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #333333;
+    margin: 18px 0 29px 0;
+    font-weight: bold;
+}
+
+.app-btn {
+    border: 1px solid rgba(29, 70, 246, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 170px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-btn a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D46F6;
+}
+
+.app-title {
+    width: 528px;
+}
+
+.app-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 194px;
+    margin-bottom: 154px;
+}

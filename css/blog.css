@@ -1,0 +1,118 @@
+.blog-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 89px;
+    flex-wrap: wrap;
+}
+
+.blog-title {
+    text-align: center;
+}
+
+.blog-item {
+    background: #F3F6FA;
+    border-radius: 0px 0px 12px 12px;
+    width: 274px;
+}
+
+.blog-title p {
+    line-height: 32px; 
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ED3A4E;
+    margin: 0;
+}
+
+.blog-title h2 {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #333333;
+    margin: 18px 0 0 0;
+}
+
+.blog-title {
+    margin-bottom: 68px;
+}
+
+.blog-item p:nth-of-type(1) {
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 26px 0 15px 24px;
+}
+
+.blog-item p:nth-of-type(2) {
+    line-height: 32px;
+    color: #333333;
+    margin: 0 0 22px 24px;
+}
+
+.blog-item h4 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: normal;
+    margin: 0 24px 48px 24px;
+}
+
+.subblog-body {
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subblog-item {
+    width: 382px;
+}
+
+.subblog-item h4 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    margin: 0;
+}
+
+.subblog-item p {
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 17px 0 23px 0;
+}
+
+.subblog-item form input:nth-of-type(1) {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 222px;
+    height: 48px;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.subblog-item form input:nth-of-type(2) {
+    background: #1D46F6;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 138px;
+    height: 48px;
+    border: none;
+}
+
+.subblog-item form {
+    display: flex;
+    justify-content: space-between;
+}
